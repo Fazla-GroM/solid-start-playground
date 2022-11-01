@@ -5,6 +5,7 @@ dist
 .vercel
 .netlify
 netlify
+.turbo
 
 # dependencies
 node_modules

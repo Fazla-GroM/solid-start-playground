@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "exclude": ["node_modules"],
+    "extends": "tsconfig/solid-vite.json",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "~/*": ["./src/*"]
+        }
+    }
+}
