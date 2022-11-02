@@ -12,17 +12,19 @@
         "dev": "turbo run dev",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "lint": "turbo run lint",
-        "test": "turbo run test"
+        "test": "turbo run test",
+        "postinstall": "patch-package"
     },
     "devDependencies": {
-        "prettier": "^2.7.1",
-        "eslint": "^8.26.0",
-        "typescript": "^4.8.4",
-        "turbo": "latest",
         "@commitlint/cli": "^17.1.2",
         "@commitlint/config-conventional": "^17.1.0",
+        "eslint": "^8.26.0",
+        "eslint-config-custom": "*",
         "husky": "^8.0.1",
-        "eslint-config-custom": "*"
+        "patch-package": "^6.5.0",
+        "prettier": "^2.7.1",
+        "turbo": "latest",
+        "typescript": "^4.8.4"
     },
     "volta": {
         "node": "18.12.0"
